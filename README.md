@@ -16,10 +16,11 @@ You need to have PHP and PHPUnit installed on your system to run the tests. If y
 ### Usage
 
 1. **Transposing Musical Pieces**: You can use the provided console script `transpose.php` to transpose a musical piece. Run the script with the following command:.
-   
+    ```
     php transpose.php input_file.json semitones_to_transpose
-   
+    ```
 ### Test
 1. **Unit Testing**: You can run unit tests for the musical_piece_transposer class using PHPUnit. Run the tests with the following command:.
-    
+    ```
     php vendor/bin/phpunit tests/musical_piece_transposer_test.php
+    ```
